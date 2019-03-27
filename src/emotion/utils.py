@@ -1,7 +1,7 @@
 import os
 import random
 from fastai.vision import load_learner,open_image
-from src.utils import base64_2_array,create_save_dir,save_image_today
+from src.utils import bytes2array,create_save_dir,save_image_today
 
 
 
@@ -31,7 +31,7 @@ def prepare_input(data,type='base64'):
         data (dict) : the data from request has been jsonified
     """
     if type=='base64':
-        img = base64_2_array(data)
+        img = bytes2array(data)
     else:
         raise Exception('Wrong input type')
     filedir = save_image_today(img,'upload/raw')
