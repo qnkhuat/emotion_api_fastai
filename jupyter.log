@@ -1,0 +1,39 @@
+nohup: ignoring input
+[I 07:46:04.405 LabApp] The port 8888 is already in use, trying another port.
+[I 07:46:04.431 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 07:46:04.432 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[W 07:46:04.441 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 07:46:04.452 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 07:46:04.452 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[I 07:46:04.453 LabApp] Serving notebooks from local directory: /home/qnkhuat/AI/vision/emotion_api
+[I 07:46:04.453 LabApp] The Jupyter Notebook is running at:
+[I 07:46:04.453 LabApp] http://localhost:8889/?token=d4ba4750a062c0d021a2530140da64f8696a08df4d3e89f1
+[I 07:46:04.453 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:46:04.458 LabApp] No web browser found: could not locate runnable browser.
+[C 07:46:04.458 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1001/jupyter/nbserver-15724-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=d4ba4750a062c0d021a2530140da64f8696a08df4d3e89f1
+[I 07:46:23.756 LabApp] 302 GET /?token=d4ba4750a062c0d021a2530140da64f8696a08df4d3e89f1 (127.0.0.1) 1.00ms
+[I 07:46:31.494 LabApp] 302 GET /?token=d4ba4750a062c0d021a2530140da64f8696a08df4d3e89f1 (127.0.0.1) 0.80ms
+[W 07:47:39.930 LabApp] 404 GET /github?1553759259520 (127.0.0.1) 56.11ms referer=http://localhost:8889/lab
+[I 07:47:40.372 LabApp] Node v10.13.0
+    
+[I 07:47:40.415 LabApp] Build is up to date
+[W 07:47:40.791 LabApp] 404 GET /api/contents/resnet18-fastai.ipynb?content=0&1553759260694 (127.0.0.1): No such file or directory: resnet18-fastai.ipynb
+[W 07:47:40.791 LabApp] No such file or directory: resnet18-fastai.ipynb
+[W 07:47:40.791 LabApp] 404 GET /api/contents/resnet18-fastai.ipynb?content=0&1553759260694 (127.0.0.1) 1.30ms referer=http://localhost:8889/lab
+[W 07:47:40.792 LabApp] 404 GET /api/contents/inference.ipynb?content=0&1553759260694 (127.0.0.1): No such file or directory: inference.ipynb
+[W 07:47:40.792 LabApp] No such file or directory: inference.ipynb
+[W 07:47:40.793 LabApp] 404 GET /api/contents/inference.ipynb?content=0&1553759260694 (127.0.0.1) 0.96ms referer=http://localhost:8889/lab
+[I 07:51:26.394 LabApp] Creating new directory in /
+[I 07:51:33.011 LabApp] Creating new notebook in /nbs
+[I 07:51:34.234 LabApp] Kernel started: 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[I 07:51:34.764 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[I 07:51:34.858 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[I 07:51:44.971 LabApp] Saving file at /nbs/requesting.ipynb
+[I 07:52:13.597 LabApp] Saving file at /nbs/requesting.ipynb
+[I 07:54:14.331 LabApp] Saving file at /nbs/requesting.ipynb
+[I 07:56:14.848 LabApp] Saving file at /nbs/requesting.ipynb

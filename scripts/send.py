@@ -3,26 +3,19 @@ import requests
 import cv2
 import base64
 import json
+import time
 
+start = time.time()
 url = 'http://0.0.0.0:8085/emotion/analyze'
-img_file = '/home/qnkhuat/AI/vision/emotion_api/scripts/images/test.png'
+img_file = 'images/test.png'
 
 with open(img_file, "rb") as image_file:
     payload= base64.b64encode(image_file.read())
-    #payload = image_file.read().encode('base64')
 
-#url = 'http://localhost:5000'
-## prepare headers for http request
-#content_type = 'image/jpeg'
 headers = {'content-type' : 'application/json'}
 headers = {'content-type' : 'base64'}
-#img = cv2.imread('lena.jpg')
-## encode image as jpeg
-#_, img_encoded = cv2.imencode('.jpg', img)
-#payload = {'image':encoded_string}
-#payload = json.dumps(payload)
-# send http request with image and receive response
-response = requests.post(url, data=payload, headers=headers)
-#response = requests.post(url, data=payload)
-# decode response
+params = {}
+
+response = requests.post(url, data=payload, params=params,headers=headers)
 print(response.text)
+print(f'Total time : {time.time() -start }')

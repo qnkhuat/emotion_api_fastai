@@ -6,12 +6,6 @@ import cv2
 import json
 import random
 
-def encode_payload(payload):
-    payload = payload.decode('utf8')
-    payload += "=" * ((4 - len(payload) % 4) % 4)
-    #payload = json.loads(payload)
-    return payload
-
 
 def bytes2array(data):
     data = data.decode('utf8')
