@@ -145,6 +145,8 @@ class MTCNN():
         return bboxes[id]
    
     def cut_biggest_face(self,image,bboxes):
+        if len(bboxes) == 0:
+            return None
         bbox = self.get_biggest_bbox(bboxes)
         h,w = image.shape[:2]
         bbox = refine_bbox(bbox,h,w)
@@ -157,6 +159,8 @@ class MTCNN():
         Detect faces and cut the biggest of it
         """
         bboxes,_ = self.detect_faces(image)
+        if len(bboxes)==0:
+            return None
         face = self.cut_biggest_face(image,bboxes)
         return face
 

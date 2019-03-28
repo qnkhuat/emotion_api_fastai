@@ -37,3 +37,38 @@ nohup: ignoring input
 [I 07:52:13.597 LabApp] Saving file at /nbs/requesting.ipynb
 [I 07:54:14.331 LabApp] Saving file at /nbs/requesting.ipynb
 [I 07:56:14.848 LabApp] Saving file at /nbs/requesting.ipynb
+[I 08:37:05.850 LabApp] Starting buffering for 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf:7f6c09bd-74f2-492e-9aa0-d8cfea46298a
+[W 08:37:08.707 LabApp] 404 GET /github?1553762228260 (127.0.0.1) 2.31ms referer=http://localhost:8889/lab
+[I 08:37:08.757 LabApp] Node v10.13.0
+    
+[I 08:37:08.772 LabApp] Build is up to date
+[I 08:37:08.876 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[I 08:37:09.408 LabApp] Starting buffering for 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf:6871f356-d2d6-4e6a-9587-568a6540c97b
+[I 08:37:12.888 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[I 09:10:01.336 LabApp] Starting buffering for 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf:59047e5c-7cc1-4abd-b6e3-b9c12bb915c9
+[W 09:11:18.137 LabApp] 404 GET /github?1553764277706 (127.0.0.1) 1.68ms referer=http://localhost:8889/lab
+[I 09:11:18.190 LabApp] Node v10.13.0
+    
+[I 09:11:18.204 LabApp] Build is up to date
+[I 09:11:18.449 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[W 09:11:18.919 LabApp] 404 GET /api/contents/resnet18-fastai.ipynb?content=0&1553764278834 (127.0.0.1): No such file or directory: resnet18-fastai.ipynb
+[W 09:11:18.919 LabApp] No such file or directory: resnet18-fastai.ipynb
+[W 09:11:18.919 LabApp] 404 GET /api/contents/resnet18-fastai.ipynb?content=0&1553764278834 (127.0.0.1) 0.93ms referer=http://localhost:8889/lab
+[W 09:11:18.920 LabApp] 404 GET /api/contents/inference.ipynb?content=0&1553764278834 (127.0.0.1): No such file or directory: inference.ipynb
+[W 09:11:18.920 LabApp] No such file or directory: inference.ipynb
+[W 09:11:18.920 LabApp] 404 GET /api/contents/inference.ipynb?content=0&1553764278834 (127.0.0.1) 0.88ms referer=http://localhost:8889/lab
+[I 09:11:19.063 LabApp] Starting buffering for 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf:f9e9af2d-d5d6-4732-b1a7-63423b8b7c4c
+[I 09:13:48.370 LabApp] 302 GET / (127.0.0.1) 0.93ms
+[I 09:13:48.527 LabApp] 302 GET /lab? (127.0.0.1) 0.92ms
+[W 09:13:56.258 LabApp] 401 POST /login?next=%2Flab%3F (127.0.0.1) 1.62ms referer=http://localhost:8889/login?next=%2Flab%3F
+[I 09:16:39.211 LabApp] 302 POST /login?next=%2Flab%3F (127.0.0.1) 1.36ms
+[W 09:17:04.008 LabApp] 404 GET /github?1553764623864 (127.0.0.1) 1.55ms referer=http://localhost:8889/lab?
+[I 09:17:04.382 LabApp] Node v10.13.0
+    
+[I 09:17:04.398 LabApp] Build is up to date
+[I 09:17:04.434 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
+[W 09:17:04.748 LabApp] 404 GET /api/contents/resnet18-fastai.ipynb?content=0&1553764624665 (127.0.0.1): No such file or directory: resnet18-fastai.ipynb
+[W 09:17:04.748 LabApp] No such file or directory: resnet18-fastai.ipynb
+[W 09:17:04.748 LabApp] 404 GET /api/contents/resnet18-fastai.ipynb?content=0&1553764624665 (127.0.0.1) 0.92ms referer=http://localhost:8889/lab?
+[I 09:17:04.908 LabApp] Starting buffering for 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf:1f551e93-7b53-4301-b45a-72af707a3465
+[I 09:26:51.071 LabApp] Adapting to protocol v5.1 for kernel 4ee9bba1-904f-4bef-95a3-2d6ce2cab7cf
