@@ -2,3 +2,6 @@
 [submodule "src/detect_face"]
 	path = src/detect_face
 	url = https://github.com/qnkhuat/face-mtcnn
+[submodule "src/emotion"]
+	path = src/emotion
+	url = https://wowkidgitlab.topica.vn/AI/module_emotion
