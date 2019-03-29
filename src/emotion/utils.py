@@ -23,10 +23,10 @@ def predict_array(self,img):
     return {'emotion':str(pred[0]),
             'score':score}
 
-def load_model(model_path='src/emotion/models'):
+def load_model(model_path='src/emotion/models',model_name='export.pkl'):
     """ Load fastai learner but added a new method that can predict with an image """
     import types
-    learn = load_learner(model_path)
+    learn = load_learner(model_path,model_name)
     # insert a new function to learner
     learn.predict_array = types.MethodType( predict_array, learn )
     return learn
