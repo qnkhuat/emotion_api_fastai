@@ -1,3 +1,4 @@
-[submodule "src/face-mtcnn"]
-	path = src/face-mtcnn
+
+[submodule "src/detect_face"]
+	path = src/detect_face
 	url = https://github.com/qnkhuat/face-mtcnn
